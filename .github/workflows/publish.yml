@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: go_app_compose_cdci
+          ref: main
 
       - name: setup docker buildx
         uses: docker/setup-buildx-action@v2
